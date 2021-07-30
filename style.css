@@ -1,0 +1,36 @@
+body {font-family:"Raleway", sans-serif;}
+ul {list-style-type: none;
+display: flex;
+flex-direction: row;
+}
+/*HEADER*/
+    
+header {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.link {text-decoration: none;
+    color:black;
+    padding-left: 1rem;
+
+}
+.link2 {text-decoration: none;
+color:#0065FC ;
+font-weight: bold;
+padding-left: 1rem;}
+.link:hover {
+    color: #0065FC;
+    border-top:3px solid #0065FC;
+
+}
+
+
+
