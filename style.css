@@ -1,42 +1,168 @@
-body {font-family:"Raleway", sans-serif;}
-ul {list-style-type: none;
-display: flex;
-flex-direction: row;
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+}
+h1 {
+    width: 400px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
 }
 /*HEADER*/
 .logo {
-    flex-grow: 3;
-    object-fit: contain;
+  flex-grow: 3;
+  object-fit: contain;
 }
 header {
-    font-weight: bold;
-    display: flex;
-justify-content: space-between;
-justify-items: center;}
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
 
 header a {
-    transition-duration: 0.1s;
-    padding: 22px
+  transition-duration: 0.1s;
+  padding: 22px;
 }
-
 
 nav {
-    display: flex;
+  display: flex;
 }
 
-
-.link {text-decoration: none;
-    color:black;
-    padding-left: 1rem;
-
+.link {
+  text-decoration: none;
+  color: black;
+  padding-left: 1rem;
 }
-.link2 {text-decoration: none;
-color:#0065FC ;
-font-weight: bold;
-padding-left: 1rem;}
+.link2 {
+  text-decoration: none;
+  color: #0065fc;
+  font-weight: bold;
+  padding-left: 1rem;
+}
 
 .link:hover {
-color: #0065FC;
-border-top:3px solid #0065FC;
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
 }
 /*FIN DU HEADER*/
+
+/*PREMIERE SECTION*/
+
+.titre {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.recherche {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 1rem;
+}
+
+.icone1 {
+  background-color: #f2f2f2e3;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 1rem;
+  size: 1rem;
+}
+.bouton1 {
+  background-color: #0065fc;
+  color: white;
+  font-size: 1rem;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 1rem;
+  border: none;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.96rem;
+  border: solid #f2f2f2e3 1.1px;
+}
+
+/*filtres*/
+
+.filtres {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.filtres ul a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: black;
+}
+
+.icones {
+  color: #0065fc;
+  background-color: #deebff;
+  border-radius: 100%;
+  height: 2.8rem;
+  width: 2.8rem;
+  min-height: 3rem;
+  min-width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -2px;
+}
+
+.filtres li h3 {
+  margin: 0.6rem;
+}
+.filtres li {
+  border: solid #f2f2f2e3 2px;
+  border-radius: 25px;
+  display: flex;
+  margin-right: 28px;
+}
+/*fin des filtres*/
+
+.icone {
+  border: solid #f2f2f2e3 2px;
+  color: #0065fc;
+  border-radius: 100%;
+  margin-right: 5px;
+  padding: 5px 11px;
+}
+.info {
+  padding: top 10px;
+}
+/*FIN DE PREMIERE SECTION*/
+
+/*DEUXIEME SECTION*/
+
+.hebergements {
+  background-color: #f2f2f2e3;
+}
+.carte {
+  background-color: white;
+  width: 15%;
+}
+
+.hebergements img {
+  height: 8rem;
+  width: 80%;
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  align-content: center;
+}
+.hebergements a {
+  text-decoration: none;
+  color: black;
+}
+.etoilebleue {
+  color: #0065fc;
+}
+.etoileblanche {
+  color: #f2f2f2e3;
+}
