@@ -167,18 +167,25 @@ input {
 
 /*DEUXIEME SECTION*/
 
-.hebergements {
+/*HEBERGEMENTS*/
+
+.section2 {
   background-color: #f2f2f2e3;
+  border-radius: 1rem 1rem;
 }
 .carte {
   background-color: white;
-  width: 15%;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  width: 20%;
   margin-left: 2rem;
+  border-radius: 1rem 1rem;
 }
 
-.hebergements img {
+.carte img {
   height: 8rem;
-  width: 80%;
+  width: 100%;
   border-radius: 1rem 1rem 0 0;
   display: flex;
   align-content: center;
@@ -192,4 +199,41 @@ input {
 }
 .etoileblanche {
   color: #f2f2f2e3;
+}
+.infohbg {
+  margin: 0.5rem;
+  padding-bottom:  0.22rem;
+}
+
+/*LES PLUS POPULAIRES*/
+
+.lpp {
+ display: flex;
+ flex-direction: column;
+}
+
+.lpp a {
+  text-decoration: none;
+  color: black;
+}
+
+.carte2 {
+  background-color: white;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 40%;
+  margin-left: 2rem;
+  border-radius: 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.carte2 img {
+  height: 8rem;
+  width: 50%;
+  border-radius: 1rem 0 0 1rem;
+}
+.infohbg2 {
+  display: flex;
+  align-content: flex-end;
 }
