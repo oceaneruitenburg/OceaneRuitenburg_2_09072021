@@ -169,24 +169,31 @@ input {
 
 /*HEBERGEMENTS*/
 
-.section2 {
+.hebergements {
   background-color: #f2f2f2e3;
   border-radius: 1rem 1rem;
+  width: 80%;
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
 }
 .carte {
   background-color: white;
   padding-top: 0.3rem;
   padding-left: 0.3rem;
   padding-right: 0.3rem;
-  width: 20%;
+  width: 80%;
   margin-left: 2rem;
   border-radius: 1rem 1rem;
+  box-shadow: 0 0 16px #0000002e;
 }
 
 .carte img {
   height: 8rem;
   width: 100%;
   border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
   display: flex;
   align-content: center;
 }
@@ -208,8 +215,12 @@ input {
 /*LES PLUS POPULAIRES*/
 
 .lpp {
- display: flex;
- flex-direction: column;
+  background-color: #f2f2f2e3;
+  width: 25%;
+  height: 40%;
+  border-radius: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .lpp a {
@@ -222,18 +233,14 @@ input {
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  width: 40%;
+  width: 100%;
   margin-left: 2rem;
   border-radius: 1rem 1rem;
-  display: flex;
-  flex-direction: row;
+  box-shadow: 0 0 16px #0000002e;
 }
 .carte2 img {
-  height: 8rem;
-  width: 50%;
+  height: 7rem;
+  width: 40%;
   border-radius: 1rem 0 0 1rem;
-}
-.infohbg2 {
-  display: flex;
-  align-content: flex-end;
+  object-fit: cover;
 }
