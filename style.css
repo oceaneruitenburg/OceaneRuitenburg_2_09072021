@@ -6,14 +6,14 @@ body {
   padding-top: 1rem;
 }
 h1 {
-    width: auto;
-    font-size: 24px;
+  width: auto;
+  font-size: 24px;
 }
 h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 h3 {
-    font-size: 13px;
+  font-size: 13px;
 }
 ul {
   list-style-type: none;
@@ -54,14 +54,14 @@ nav {
 }
 
 .link2:hover {
-    color: white;
-    background-color: #0065fc;
-    border-radius: 25px;
+  color: white;
+  background-color: #0065fc;
+  border-radius: 25px;
 }
 
 .link3:hover {
-    background-color:#deebff ;
-    border-radius: 25px;
+  background-color: #deebff;
+  border-radius: 25px;
 }
 
 .link:hover {
@@ -78,8 +78,7 @@ nav {
   margin-top: 2rem;
 }
 .placeholder {
-    font-weight: bold;
-    
+  font-weight: bold;
 }
 
 .recherche {
@@ -174,9 +173,9 @@ input {
   border-radius: 1rem 1rem;
   width: 80%;
   display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-    row-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
 }
 .carte {
   background-color: white;
@@ -184,6 +183,7 @@ input {
   padding-left: 0.3rem;
   padding-right: 0.3rem;
   width: 80%;
+  height: 80%;
   margin-left: 2rem;
   border-radius: 1rem 1rem;
   box-shadow: 0 0 16px #0000002e;
@@ -209,15 +209,15 @@ input {
 }
 .infohbg {
   margin: 0.5rem;
-  padding-bottom:  0.22rem;
+  padding-bottom: 0.22rem;
 }
 
 /*LES PLUS POPULAIRES*/
 
 .lpp {
   background-color: #f2f2f2e3;
-  width: 25%;
-  height: 40%;
+ /* width: 30%;
+  height: 40%;*/
   border-radius: 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -233,10 +233,14 @@ input {
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  width: 100%;
+  /*width: 85%;
+  height: 70%;*/
   margin-left: 2rem;
   border-radius: 1rem 1rem;
   box-shadow: 0 0 16px #0000002e;
+}
+.lpp1 {
+  display: flex;
 }
 .carte2 img {
   height: 7rem;
@@ -244,3 +248,4 @@ input {
   border-radius: 1rem 0 0 1rem;
   object-fit: cover;
 }
+
