@@ -217,6 +217,9 @@ input {
   border-radius: 1rem 1rem;
   box-shadow: 0 0 16px #0000002e;
 }
+.carte:hover {
+  background-color: #deebff;
+}
 
 .carte img {
   height: 6rem;
@@ -301,6 +304,10 @@ input {
   border-radius: 1rem 1rem;
   box-shadow: 0 0 16px #0000002e;
 }
+
+.carte2:hover {
+  background-color:#deebff;
+}
 .lpp1 {
   display: flex;
 }
@@ -321,15 +328,15 @@ h3 {
   line-height: 16px;
 }
 .infohbg2 h3 {
-  margin-bottom: -1rem;
+  margin-bottom: -1.5rem;
 }
 .infohbg2 p {
   font-size: 11.5px;
-  margin-top: 1.2rem;
+  margin-top: 1.5rem;
 }
 .note2 {
   font-size: 10px;
-  margin-top: 1.2rem;
+  margin-top: 1.5rem;
 }
 
 /*SECTION ACTIVITÉS*/
@@ -358,6 +365,9 @@ h3 {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+.carteact:hover {
+  background-color: #deebff ;
 }
 .carteact h3 {
   margin-left: 1rem;
