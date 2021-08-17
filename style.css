@@ -180,8 +180,8 @@ input {
   margin-left: 2rem;
   margin-bottom: 1.5rem;
 }
-.section2 h1 {}
-
+.section2 h1 {
+}
 
 /*HEBERGEMENTS*/
 
@@ -237,7 +237,7 @@ input {
   color: #f2f2f2e3;
 }
 .note {
-  font-size: 10px
+  font-size: 10px;
 }
 .infohbg {
   display: block;
@@ -303,7 +303,6 @@ input {
 }
 .lpp1 {
   display: flex;
-
 }
 .carte2 img {
   height: 6.6rem;
@@ -335,47 +334,68 @@ h3 {
 
 /*SECTION ACTIVITÉS*/
 
+.titreact {
+  font-size: 24px;
+  font-weight: 24px;
+  padding-top: 1rem;
+}
+
 .activites {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 6rem;
+  padding-top: 0.2rem;
 }
 .carteact {
   border-radius: 1rem;
-    border: 0px solid white;
-    overflow: hidden;
-    background-color: white;
-    box-shadow: 0 0 16px #d2d2d2;
+  border: 0px solid white;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 0 16px #d2d2d2;
+}
+.carteact a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.carteact h3 {
+  margin-left: 1rem;
 }
 .full img {
-  height: 22rem;
-  width: 18rem;
+  height: 16rem;
+  width: 14rem;
   border-radius: 1rem 1rem 0rem 0rem;
   object-fit: cover;
-
 }
 .img1 {
-  height:10rem ;
-  width: 18rem ;
+  height: 7rem;
+  width: 14rem;
   object-fit: cover;
   border-radius: 1rem 1rem 0rem 0rem;
 }
 .img2 {
-  height:6rem ;
-  width: 18rem;
+  height: 4rem;
+  width: 14rem;
   object-fit: cover;
   border-radius: 1rem 1rem 0rem 0rem;
 }
 .img3 {
   height: 6rem;
-  width: 17rem;
+  width: 14rem;
   object-fit: cover;
-  border-radius: 1rem 1rem 0rem 0rem
-
+  border-radius: 1rem 1rem 0rem 0rem;
 }
 
 .img4 {
-  height: 10rem;
-  width: 17rem;
+  height: 5.5rem;
+  width: 14rem;
   object-fit: cover;
-  border-radius: 1rem 1rem 0rem 0rem
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.half {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
