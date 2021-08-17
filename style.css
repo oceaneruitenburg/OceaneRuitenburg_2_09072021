@@ -180,9 +180,7 @@ input {
   margin-left: 2rem;
   margin-bottom: 1.5rem;
 }
-.section2 h1 {
-  
-}
+.section2 h1 {}
 
 
 /*HEBERGEMENTS*/
@@ -333,4 +331,51 @@ h3 {
 .note2 {
   font-size: 10px;
   margin-top: 1.2rem;
+}
+
+/*SECTION ACTIVITÉS*/
+
+.activites {
+  display: flex;
+  flex-direction: row;
+}
+.carteact {
+  border-radius: 1rem;
+    border: 0px solid white;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 16px #d2d2d2;
+}
+.full img {
+  height: 22rem;
+  width: 18rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  object-fit: cover;
+
+}
+.img1 {
+  height:10rem ;
+  width: 18rem ;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.img2 {
+  height:6rem ;
+  width: 18rem;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.img3 {
+  height: 6rem;
+  width: 17rem;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0rem 0rem
+
+}
+
+.img4 {
+  height: 10rem;
+  width: 17rem;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0rem 0rem
 }
