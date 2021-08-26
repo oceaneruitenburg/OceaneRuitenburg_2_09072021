@@ -1,8 +1,9 @@
 body {
   font-family: "Raleway", sans-serif;
   background-color: white;
-  padding-left: 25rem;
-  padding-right: 25rem;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
   padding-top: 1rem;
 }
 h1 {
@@ -172,6 +173,8 @@ input {
   display: flex;
   flex-direction: row;
   padding-top: 1rem;
+  justify-content: space-between;
+  border: solid red 1px;
 }
 .afficher {
   font-size: 14px;
@@ -200,6 +203,7 @@ input {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
+  border: green solid 1px;
 }
 
 .carte {
@@ -259,10 +263,12 @@ input {
   border-radius: 1rem 1rem;
   display: flex;
   flex-direction: column;
+  border: solid purple 1px;
 }
 
 .lppcards {
   margin-top: -2rem;
+  border: tomato solid 1px;
 }
 
 .lpp a {
@@ -349,6 +355,7 @@ h3 {
   justify-content: space-between;
   padding-bottom: 6rem;
   padding-top: 0.2rem;
+  border: blue solid 1px;
 }
 .carteact {
   border-radius: 1rem;
@@ -422,34 +429,9 @@ h3 {
   flex-direction: row;
   align-content: center;
   margin-top: -2rem;
+  border: orange solid 1px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
