@@ -1,7 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   background-color: white;
-  max-width: 1400px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   padding-top: 1rem;
@@ -189,31 +189,35 @@ input {
   grid-template-columns: repeat(3, 14rem);
   column-gap: 1px;
   row-gap: 1.9rem;
-  padding-top: 5rem;
-  margin-left: -13.5rem;
+  padding: 35px 0 35px 20px;
+  /*margin-left: -13.5rem;*/
+  border:solid 1px pink;
 }
 
 .hebergements {
   background-color: #f2f2f2e3;
   border-radius: 1rem 1rem;
   /*width: 80%;*/
-  width: 43.5rem;
-  height: 34rem;
-  display: grid;
+  /*width: 43.5rem;*/
+  /*height: 34rem;*/
+  display: flex;
+  flex-direction: column;
+  /*display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
-  row-gap: 2rem;
+  row-gap: 2rem;*/
   border: green solid 1px;
 }
 
 .carte {
   background-color: white;
-  padding-top: 0.3rem;
+  /*padding-top: 0.3rem;
   padding-left: 0.3rem;
-  padding-right: 0.3rem;
+  padding-right: 0.3rem;*/
+  padding: 5px;
   width: 12rem;
   height: 11rem;
-  margin-left: 2rem;
+  /*margin-left: 2rem;*/
   border-radius: 1rem 1rem;
   box-shadow: 0 0 16px #0000002e;
 }
@@ -257,9 +261,10 @@ input {
   background-color: #f2f2f2e3;
   /* width: 30%;
   height: 40%;*/
-  width: 22.5rem;
-  height: 34rem;
-  margin-left: 1.2rem;
+  /*width: 22.5rem;
+  height: 34rem;*/
+  padding: 15px 35px 35px 35px;
+  /*margin-left: 1.2rem;*/
   border-radius: 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -267,7 +272,7 @@ input {
 }
 
 .lppcards {
-  margin-top: -2rem;
+  /*margin-top: -2rem;*/
   border: tomato solid 1px;
 }
 
@@ -282,8 +287,8 @@ input {
   justify-content: space-around;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
-  margin-top: 1.2rem;
+  /*margin-bottom: px;*/
+  /*margin-top: 1.2rem;*/
 }
 .lppicone i {
   margin-top: 1.5rem;
@@ -297,12 +302,12 @@ input {
   padding-top: 0.2rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  margin-top: 1.5rem;
+  margin: 25px 25px 0 25px;
   /*width: 85%;
   height: 70%;*/
   width: 17rem;
   height: 6.8rem;
-  margin-left: 2rem;
+ /* margin-left: 2rem;*/
   border-radius: 1rem 1rem;
   box-shadow: 0 0 16px #0000002e;
 }
@@ -433,6 +438,27 @@ h3 {
 
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .bouton1 {
+    background-color: orange;
+    /*color: white;
+    font-size: 1rem;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 1rem;
+    border: none;*/
+  }
+
+  .filtres {
+    /*display: flex;*/
+    flex-wrap: wrap;
+    /*align-items: center;
+    margin-top: 1rem;*/
+  }
+
+}
 
 
 
