@@ -5,6 +5,8 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1 {
   width: auto;
@@ -123,9 +125,14 @@ input {
 .filtres ul a {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   text-decoration: none;
   color: black;
+}
+
+.filtre ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .icones {
@@ -448,7 +455,8 @@ h3 {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .bouton1 {
-    background-color: orange;
+    background-color: #0065fc;
+    color: #0065fc;
     /*color: white;
     font-size: 1rem;
     border-bottom-right-radius: 15px;
@@ -456,7 +464,7 @@ h3 {
     padding: 1rem;
     border: none;*/
   }
-/*header debut*/
+  /*header debut*/
   .logo {
     flex-grow: 3;
     /*object-fit: contain;*/
@@ -467,16 +475,16 @@ h3 {
     justify-content: space-between;
     justify-items: center;*/
   }
-  
+
   header a {
     /*transition-duration: 0.1s;
     padding: 1.0909rem;*/
   }
-  
+
   nav {
-   /*display: flex;*/
+    /*display: flex;*/
   }
-  
+
   .link {
     text-decoration: none;
     color: black;
@@ -490,42 +498,30 @@ h3 {
     font-weight: bold;
     padding-left: 1rem;*/
   }
-  
+
   .link2:hover {
     color: white;
     background-color: #0065fc;
     border-radius: 0.96rem;
   }
-  
+
   .link3:hover {
     background-color: #f2f2f2e3;
     border-radius: 0.96rem;
   }
-  
+
   .link:hover {
     color: #0065fc;
-    /*border-top: 3px solid #0065fc;
-    padding-top: 2.36rem;*/
+    border-top: 0px;
+    /*padding-top: 2.36rem;*/
     border-bottom: 3px solid #0065fc;
-    padding-bottom: 2.36rem;
+    padding-bottom: 2rem;
   }
-/*header fin*/
+  /*header fin*/
+
+  /*FILTRES POUR LES MOBILES*/
 
 
-
-
-
-
-
-
-  
-
-  .filtres {
-    /*display: flex;*/
-    flex-wrap: wrap;
-    /*align-items: center;
-    margin-top: 1rem;*/
-  }
   .section2 {
     display: flex;
     flex-direction: column-reverse;
@@ -645,7 +641,7 @@ h3 {
 
   .footer li {
     margin-top: 1rem;
-    font-weight:600;
+    font-weight: 600;
     line-height: 8px;
   }
 }
