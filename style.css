@@ -456,6 +456,69 @@ h3 {
     padding: 1rem;
     border: none;*/
   }
+/*header debut*/
+  .logo {
+    flex-grow: 3;
+    /*object-fit: contain;*/
+  }
+  header {
+    /*font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;*/
+  }
+  
+  header a {
+    /*transition-duration: 0.1s;
+    padding: 1.0909rem;*/
+  }
+  
+  nav {
+   /*display: flex;*/
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+    display: flex;
+    align-items: flex-end;
+  }
+  .link2 {
+    /*text-decoration: none;
+    color: #0065fc;
+    font-weight: bold;
+    padding-left: 1rem;*/
+  }
+  
+  .link2:hover {
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0.96rem;
+  }
+  
+  .link3:hover {
+    background-color: #f2f2f2e3;
+    border-radius: 0.96rem;
+  }
+  
+  .link:hover {
+    color: #0065fc;
+    /*border-top: 3px solid #0065fc;
+    padding-top: 2.36rem;*/
+    border-bottom: 3px solid #0065fc;
+    padding-bottom: 2.36rem;
+  }
+/*header fin*/
+
+
+
+
+
+
+
+
+  
 
   .filtres {
     /*display: flex;*/
