@@ -109,19 +109,6 @@ nav {
   border: none;
 }
 
-.bouton2 {
-  background-color: #0065fc ;
-  color: white;
-  border-radius: 15px;
-  border: none;
-  font-size: 1.3rem;
-  margin-left: -10px;
-  display: none;
-}
-.bouton2 i {
-  padding: 15px 10px 15px 10px;
-}
-
 input {
   font-size: 1rem;
   padding: 0.96rem;
@@ -210,9 +197,9 @@ input {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 14rem);
-  column-gap: 2rem;
+  column-gap: 1px;
   row-gap: 1.9rem;
-  padding: 35px 15px 35px 15px;
+  padding: 35px 10px 35px 20px;
   margin-top: -2rem;
   /*margin-left: -13.5rem;*/
   border: solid 1px pink;
@@ -239,7 +226,7 @@ input {
   padding-left: 0.3rem;
   padding-right: 0.3rem;*/
   padding: 5px;
-  width: 12.8rem;
+  width: 12.3rem;
   height: 11rem;
   /*margin-left: 2rem;*/
   border-radius: 1rem 1rem;
@@ -251,7 +238,7 @@ input {
 
 .carte img {
   height: 6rem;
-  width: 12.8rem;
+  width: 12.3rem;
   border-radius: 1rem 1rem 0 0;
   object-fit: cover;
   display: flex;
@@ -467,24 +454,16 @@ h3 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
- 
-.bouton1 {
-  display: none;
-}
-.bouton2 {
-    background-color: #0065fc ;
-    color: white;
-    border-radius: 15px;
-    border: none;
-    font-size: 1.3rem;
-    margin-left: -10px;
+  .bouton1 {
+    background-color: #0065fc;
+    color: #0065fc;
+    /*color: white;
+    font-size: 1rem;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 1rem;
+    border: none;*/
   }
-
-  .bouton2 i {
-    padding: 15px 10px 15px 10px;
-  }
-
-}
   /*header debut*/
   .logo {
     flex-grow: 3;
@@ -497,7 +476,10 @@ h3 {
     justify-items: center;*/
   }
 
-
+  header a {
+    /*transition-duration: 0.1s;
+    padding: 1.0909rem;*/
+  }
 
   nav {
     /*display: flex;*/
@@ -510,8 +492,32 @@ h3 {
     display: flex;
     align-items: flex-end;
   }
+  .link2 {
+    /*text-decoration: none;
+    color: #0065fc;
+    font-weight: bold;
+    padding-left: 1rem;*/
+  }
 
+  .link2:hover {
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0.96rem;
+  }
 
+  .link3:hover {
+    background-color: #f2f2f2e3;
+    border-radius: 0.96rem;
+  }
+
+  .link:hover {
+    color: #0065fc;
+    border-top: 0px;
+    /*padding-top: 2.36rem;*/
+    border-bottom: 3px solid #0065fc;
+    padding-bottom: 2rem;
+  }
+  /*header fin*/
 
   /*FILTRES POUR LES MOBILES*/
 
@@ -520,7 +526,7 @@ h3 {
     display: flex;
     flex-direction: column-reverse;
     padding-top: 1rem;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     border: solid red 1px;
   }
 
@@ -578,7 +584,7 @@ h3 {
   .activites {
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     padding-bottom: 6rem;
     padding-top: 0.2rem;
     border: blue solid 1px;
