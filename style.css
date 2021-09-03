@@ -108,7 +108,19 @@ nav {
   padding: 1rem;
   border: none;
 }
+.bouton2 {
+  background-color: #0065fc ;
+  color: white;
+  border-radius: 14.5px;
+  border: none;
+  font-size: 1.3rem;
+  margin-left: -10px;
+  display: none;
 
+}
+.bouton2 i {
+  padding: 15px 10px 15px 10px
+}
 input {
   font-size: 1rem;
   padding: 0.96rem;
@@ -132,7 +144,7 @@ input {
 
 .filtre ul {
   display: flex;
-  flex-wrap: wrap;
+  sflex-wrap: wrap;
 }
 
 .icones {
@@ -147,7 +159,8 @@ input {
   align-items: center;
   justify-content: center;
   margin-right: 1px;
-  margin-bottom: -0.5px;
+  padding:0.2px
+  /*margin-bottom: -0.5px;*/
 }
 
 .filtres li h3 {
@@ -157,8 +170,10 @@ input {
 .filtres li {
   border: solid #f2f2f2e3 2px;
   border-radius: 25px;
-  display: flex;
+  /*display: flex;*/
   margin-right: 26px;
+  display: flex;
+  flex-wrap: wrap;
 }
 /*fin des filtres*/
 
@@ -454,27 +469,33 @@ h3 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+
+
+
+
+
+
   .bouton1 {
-    background-color: #0065fc;
-    color: #0065fc;
-    /*color: white;
-    font-size: 1rem;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    padding: 1rem;
-    border: none;*/
+    display: none;
+  }
+  .bouton2 {
+    background-color: #0065fc ;
+    color: white;
+    border-radius: 14.5px;
+    border: none;
+    font-size: 1.3rem;
+    margin-left: -10px;
+  }
+  .bouton2 i {
+    padding: 15px 10px 15px 10px
   }
   /*header debut*/
   .logo {
     flex-grow: 3;
     /*object-fit: contain;*/
   }
-  header {
-    /*font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;*/
-  }
+
 
   header a {
     /*transition-duration: 0.1s;
@@ -521,7 +542,14 @@ h3 {
 
   /*FILTRES POUR LES MOBILES*/
 
-
+  .filtres ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .filtres li {
+    margin-top: 6px;
+  }
   .section2 {
     display: flex;
     flex-direction: column-reverse;
@@ -529,7 +557,9 @@ h3 {
     justify-content: space-between;
     border: solid red 1px;
   }
-
+  .filtres h2 {
+    display: flex; /*ajouter qqch ici*/
+  }
   .cards {
     display: flex;
     flex-direction: column;
