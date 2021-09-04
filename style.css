@@ -25,10 +25,7 @@ ul {
   flex-direction: row;
 }
 /*HEADER*/
-.logo {
-  flex-grow: 3;
-  object-fit: contain;
-}
+
 header {
   font-weight: bold;
   display: flex;
@@ -109,17 +106,16 @@ nav {
   border: none;
 }
 .bouton2 {
-  background-color: #0065fc ;
+  background-color: #0065fc;
   color: white;
   border-radius: 14.5px;
   border: none;
   font-size: 1.3rem;
   margin-left: -10px;
   display: none;
-
 }
 .bouton2 i {
-  padding: 15px 10px 15px 10px
+  padding: 15px 10px 15px 10px;
 }
 input {
   font-size: 1rem;
@@ -159,7 +155,7 @@ input {
   align-items: center;
   justify-content: center;
   margin-right: 1px;
-  padding:0.2px
+  padding: 0.2px;
   /*margin-bottom: -0.5px;*/
 }
 
@@ -469,18 +465,11 @@ h3 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-
-
-
-
-
-
   .bouton1 {
     display: none;
   }
   .bouton2 {
-    background-color: #0065fc ;
+    background-color: #0065fc;
     color: white;
     border-radius: 14.5px;
     border: none;
@@ -488,14 +477,13 @@ h3 {
     margin-left: -10px;
   }
   .bouton2 i {
-    padding: 15px 10px 15px 10px
+    padding: 15px 10px 15px 10px;
   }
   /*header debut*/
-  .logo {
-    flex-grow: 3;
-    /*object-fit: contain;*/
-  }
 
+  header img, .link2  {
+    border: solid salmon 15px;
+  }
 
   header a {
     /*transition-duration: 0.1s;
@@ -510,8 +498,9 @@ h3 {
     text-decoration: none;
     color: black;
     padding-left: 1rem;
-    display: flex;
-    align-items: flex-end;
+    border: solid pink 5px;
+    
+    /*display: grid (1, 1fr);*/
   }
   .link2 {
     /*text-decoration: none;
@@ -546,7 +535,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .filtres li {
     margin-top: 6px;
   }
@@ -558,7 +547,8 @@ h3 {
     border: solid red 1px;
   }
   .filtres h2 {
-    display: flex; /*ajouter qqch ici*/
+    display: flex;
+    /*ajouter qqch ici*/
   }
   .cards {
     display: flex;
@@ -618,6 +608,7 @@ h3 {
     padding-bottom: 6rem;
     padding-top: 0.2rem;
     border: blue solid 1px;
+    width: 16rem;
   }
   .full img {
     height: 7rem;
