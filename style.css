@@ -135,7 +135,7 @@ input {
 
 .filtre ul {
   display: flex;
-  sflex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .icones {
@@ -470,36 +470,36 @@ h3 {
   /*header debut*/
 
   header {
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;
+    flex-wrap: wrap;*/
   }
 
   ul {
     flex-wrap: wrap;
+    border: solid greenyellow 2px
     
   }
 
   .link2 {
-    display: flex;
+    /*display: flex;*/
     /*flex-wrap: wrap;*/
   }
   header img,
   .link2 {
-    border: solid salmon 3px;
-    display: flex;
+    /*border: solid salmon 3px;
+    display: flex;*/
   }
 
   .link {
-    text-decoration: none;
-    color: black;
     /*padding-left: 1rem;*/
     border: solid pink 5px;
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;
+    flex-wrap: wrap;*/
 
     /*display: grid (1, 1fr);*/
   }
   .link2 {
+    border: solid blue 3px;
     /*text-decoration: none;
     color: #0065fc;
     font-weight: bold;
@@ -560,6 +560,15 @@ h3 {
   .info {
     display: flex;
     align-items: center;
+  }
+  .info p {
+    display: flex;
+    line-height: 25px;
+    justify-content: left;
+  }
+  .info .icone {
+    margin-right: 10px;
+    padding: 6px 12px 6px 12px
   }
   .cards {
     display: flex;
