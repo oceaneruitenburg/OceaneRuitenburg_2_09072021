@@ -102,13 +102,12 @@ header a {
   border: none;
 }
 .bouton2 {
-  background-color: #0065fc;
-  color: white;
+  background-color: transparent;
+  color: transparent;
   border-radius: 14.5px;
   border: none;
   font-size: 1.3rem;
   margin-left: -10px;
-  display: none;
 }
 .bouton2 i {
   padding: 15px 10px 15px 10px;
@@ -475,9 +474,14 @@ h3 {
     flex-wrap: wrap;
   }
 
+  ul {
+    flex-wrap: wrap;
+    
+  }
+
   .link2 {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
   }
   header img,
   .link2 {
@@ -524,9 +528,14 @@ h3 {
 
   /*FILTRES POUR LES MOBILES*/
 
+  .filtres {
+    margin-top: -6rem;
+  }
   .filtres ul {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 11rem;
+    margin-left: -2rem;
   }
 
   .filtres li {
@@ -538,9 +547,19 @@ h3 {
     padding-top: 1rem;
     justify-content: space-between;
   }
+
   .filtres h2 {
     display: flex;
+    position: absolute;
+    /*margin-left: 38px;*/
+    padding-bottom: 1rem;
     /*ajouter qqch ici*/
+  }
+
+  /*fin des filtres*/
+  .info {
+    display: flex;
+    align-items: center;
   }
   .cards {
     display: flex;
@@ -561,6 +580,9 @@ h3 {
     column-gap: 2rem;
     row-gap: 2rem;*/
   }
+  .hebergements h1 {
+    margin-left: -6px;
+  }
 
   .carte {
     background-color: white;
@@ -569,7 +591,7 @@ h3 {
     padding-right: 0.3rem;*/
     padding: 5px;
     width: 20rem;
-    height: 10rem;
+    height: 11rem;
     /*margin-left: 2rem;*/
     border-radius: 1rem 1rem;
     box-shadow: 0 0 16px #0000002e;
@@ -590,6 +612,32 @@ h3 {
     /*line-height: 1px;*/
     /*padding-bottom: 10px;*/
     margin-top: -2.5px;
+  }
+  .infohbg .note {
+    margin-top: 17px;
+  }
+  /*lpp*/
+
+  .carte2 {
+    width: 20rem;
+    margin: 20px 0px 0 10px;
+  }
+  .lpp {
+    border-radius: 0px;
+  }
+
+  .lppicone {
+    margin-bottom: 20px;
+    margin-left: -8px;
+  }
+
+  /*fin lpp*/
+
+  .afficher {
+    padding-left: 3px;
+  }
+  .titreact {
+    padding-left: 35px;
   }
 
   .activites {
