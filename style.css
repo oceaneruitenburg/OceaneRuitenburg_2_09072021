@@ -38,10 +38,6 @@ header a {
   padding: 1.0909rem;
 }
 
-nav {
-  display: flex;
-}
-
 .link {
   text-decoration: none;
   color: black;
@@ -192,7 +188,6 @@ input {
   flex-direction: row;
   padding-top: 1rem;
   justify-content: space-between;
-  border: solid red 1px;
 }
 .section2 h1 {
   padding: 15px 0 0 35px;
@@ -213,7 +208,6 @@ input {
   padding: 35px 10px 35px 20px;
   margin-top: -2rem;
   /*margin-left: -13.5rem;*/
-  border: solid 1px pink;
 }
 
 .hebergements {
@@ -228,7 +222,6 @@ input {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;*/
-  border: green solid 1px;
 }
 
 .carte {
@@ -290,12 +283,10 @@ input {
   border-radius: 1rem 1rem;
   display: flex;
   flex-direction: column;
-  border: solid purple 1px;
 }
 
 .lppcards {
   margin-top: -2rem;
-  border: tomato solid 1px;
 }
 
 .lpp a {
@@ -386,7 +377,6 @@ h3 {
   justify-content: space-between;
   padding-bottom: 6rem;
   padding-top: 0.2rem;
-  border: blue solid 1px;
 }
 .carteact {
   border-radius: 1rem;
@@ -449,7 +439,7 @@ h3 {
 .footer ul {
   display: flex;
   flex-direction: column;
-  margin-right: 8rem;
+  margin-right: 6.5rem;
 }
 .footer li {
   margin-top: 1rem;
@@ -460,7 +450,6 @@ h3 {
   flex-direction: row;
   align-content: center;
   margin-top: -2rem;
-  border: orange solid 1px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -481,25 +470,29 @@ h3 {
   }
   /*header debut*/
 
-  header img, .link2  {
-    border: solid salmon 15px;
+  header {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  header a {
-    /*transition-duration: 0.1s;
-    padding: 1.0909rem;*/
+  .link2 {
+    display: flex;
+    flex-wrap: wrap;
   }
-
-  nav {
-    /*display: flex;*/
+  header img,
+  .link2 {
+    border: solid salmon 3px;
+    display: flex;
   }
 
   .link {
     text-decoration: none;
     color: black;
-    padding-left: 1rem;
+    /*padding-left: 1rem;*/
     border: solid pink 5px;
-    
+    display: flex;
+    flex-wrap: wrap;
+
     /*display: grid (1, 1fr);*/
   }
   .link2 {
@@ -544,7 +537,6 @@ h3 {
     flex-direction: column-reverse;
     padding-top: 1rem;
     justify-content: space-between;
-    border: solid red 1px;
   }
   .filtres h2 {
     display: flex;
@@ -555,7 +547,6 @@ h3 {
     flex-direction: column;
     margin-top: -2rem;
     /*margin-left: -13.5rem;*/
-    border: solid 1px pink;
   }
 
   .hebergements {
@@ -569,7 +560,6 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     row-gap: 2rem;*/
-    border: green solid 1px;
   }
 
   .carte {
@@ -578,7 +568,7 @@ h3 {
     padding-left: 0.3rem;
     padding-right: 0.3rem;*/
     padding: 5px;
-    width: 15rem;
+    width: 20rem;
     height: 10rem;
     /*margin-left: 2rem;*/
     border-radius: 1rem 1rem;
@@ -587,7 +577,7 @@ h3 {
 
   .carte img {
     height: 6.2rem;
-    width: 15rem;
+    width: 20rem;
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
     display: flex;
@@ -599,45 +589,46 @@ h3 {
     /*margin-left: 0.5rem;*/
     /*line-height: 1px;*/
     /*padding-bottom: 10px;*/
+    margin-top: -2.5px;
   }
 
   .activites {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 6rem;
     padding-top: 0.2rem;
-    border: blue solid 1px;
-    width: 16rem;
+    width: auto;
   }
   .full img {
     height: 7rem;
-    width: 16rem;
+    width: 20rem;
     border-radius: 1rem 1rem 0rem 0rem;
     object-fit: cover;
   }
   .img1 {
     height: 7rem;
-    width: 16rem;
+    width: 20rem;
     object-fit: cover;
     border-radius: 1rem 1rem 0rem 0rem;
   }
   .img2 {
     height: 7rem;
-    width: 16rem;
+    width: 20rem;
     object-fit: cover;
     border-radius: 1rem 1rem 0rem 0rem;
   }
   .img3 {
     height: 7rem;
-    width: 16rem;
+    width: 20rem;
     object-fit: cover;
     border-radius: 1rem 1rem 0rem 0rem;
   }
 
   .img4 {
     height: 7rem;
-    width: 16rem;
+    width: 20rem;
     object-fit: cover;
     border-radius: 1rem 1rem 0rem 0rem;
   }
@@ -657,12 +648,11 @@ h3 {
     flex-direction: column;
     align-content: center;
     margin-top: -2rem;
-    border: orange solid 1px;
   }
 
   .footer li {
     margin-top: 1rem;
     font-weight: 600;
-    line-height: 8px;
+    line-height: 14px;
   }
 }
