@@ -133,7 +133,7 @@ input {
   color: black;
 }
 
-.filtre ul {
+.filtres ul {
   display: flex;
   flex-wrap: wrap;
 }
@@ -475,8 +475,10 @@ h3 {
   }
 
   ul {
-    flex-wrap: wrap;
-    border: solid greenyellow 2px
+    flex-wrap: wrap-reverse;
+    height: 100px;
+    border: solid greenyellow 2px;
+
     
   }
 
