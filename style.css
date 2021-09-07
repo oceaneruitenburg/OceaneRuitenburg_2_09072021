@@ -177,6 +177,8 @@ input {
 }
 .info {
   padding-top: 10px;
+  display: flex;
+  align-items: baseline;
 }
 /*FIN DE PREMIERE SECTION*/
 
@@ -467,6 +469,7 @@ h3 {
   .bouton2 i {
     padding: 15px 10px 15px 10px;
   }
+ 
   /*header debut*/
 
   header {
@@ -527,11 +530,14 @@ h3 {
     padding-bottom: 2rem;
   }
   /*header fin*/
-
+.recherche {
+  padding-left: 20px;
+}
   /*FILTRES POUR LES MOBILES*/
 
   .filtres {
     margin-top: -6rem;
+    padding-left: 12px;
   }
   .filtres ul {
     display: flex;
@@ -553,6 +559,7 @@ h3 {
   .filtres h2 {
     display: flex;
     position: absolute;
+    padding-left: 16px;
     /*margin-left: 38px;*/
     padding-bottom: 1rem;
     /*ajouter qqch ici*/
@@ -561,16 +568,17 @@ h3 {
   /*fin des filtres*/
   .info {
     display: flex;
-    align-items: center;
+    align-items:baseline;
+    padding-left: 20px;
   }
   .info p {
-    display: flex;
-    line-height: 25px;
-    justify-content: left;
+    /*display: flex;*/
   }
   .info .icone {
     margin-right: 10px;
-    padding: 6px 12px 6px 12px
+    /*padding: 6px 12px 6px 12px;
+    display: flex;
+    align-items: flex-end*/
   }
   .cards {
     display: flex;
