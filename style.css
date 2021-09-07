@@ -474,7 +474,7 @@ h3 {
     flex-wrap: wrap;*/
   }
 
-  ul {
+  .nav ul {
     flex-wrap: wrap-reverse;
     height: 100px;
     border: solid greenyellow 2px;
