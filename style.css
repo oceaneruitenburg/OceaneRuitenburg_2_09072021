@@ -723,3 +723,285 @@ h3 {
     line-height: 14px;
   }
 }
+
+/*TABLETTES*/
+
+@media only screen and (min-width: 760px) and (max-width: 966px){
+
+  .bouton1 {
+    display: none;
+  }
+  .bouton2 {
+    background-color: #0065fc;
+    color: white;
+    border-radius: 14.5px;
+    border: none;
+    font-size: 1.3rem;
+    margin-left: -10px;
+  }
+  .bouton2 i {
+    padding: 15px 10px 15px 10px;
+  }
+ 
+  /*header debut*/
+
+  header {
+    /*display: flex;
+    flex-wrap: wrap;*/
+  }
+
+  .nav ul {
+    flex-wrap: wrap-reverse;
+    height: 100px;
+    border: solid greenyellow 2px;
+
+    
+  }
+
+  .link2 {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+  }
+  header img,
+  .link2 {
+    /*border: solid salmon 3px;
+    display: flex;*/
+  }
+
+  .link {
+    
+  }
+  .link2 {
+    
+  }
+
+  
+  /*header fin*/
+.recherche {
+  padding-left: 20px;
+}
+  /*FILTRES POUR LES TABLETTES*/
+
+  .filtres {
+    margin-top: -6rem;
+    padding-left: 12px;
+  }
+  .filtres ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 11rem;
+    margin-left: -2rem;
+  }
+
+  .filtres li {
+    margin-top: 6px;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 1rem;
+    justify-content: space-between;
+  }
+
+  .filtres h2 {
+    display: flex;
+    position: absolute;
+    padding-left: 16px;
+    /*margin-left: 38px;*/
+    padding-bottom: 1rem;
+    /*ajouter qqch ici*/
+  }
+
+  /*fin des filtres*/
+  .info {
+    display: flex;
+    align-items:baseline;
+    padding-left: 20px;
+  }
+  .info p {
+    /*display: flex;*/
+  }
+  .info .icone {
+    margin-right: 10px;
+    /*padding: 6px 12px 6px 12px;
+    display: flex;
+    align-items: flex-end*/
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2rem;
+    padding-left: 50px;
+    /*margin-left: -13.5rem;*/
+  }
+
+  .hebergements {
+    background-color: #f2f2f2e3;
+    border-radius: 15px;
+    margin: 0px 45px 45px 45px;
+    /*width: 80%;*/
+    /*width: 43.5rem;*/
+    /*height: 34rem;*/
+    display: flex;
+    flex-direction: column;
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;*/
+  }
+  .hebergements h1 {
+    margin-left: -6px;
+  }
+
+  .carte {
+    background-color: white;
+    /*padding-top: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;*/
+    padding: 5px;
+    width: 35rem;
+    height: 13rem;
+    /*margin-left: 2rem;*/
+    border-radius: 1rem 1rem;
+    box-shadow: 0 0 16px #0000002e;
+  }
+
+  .carte img {
+    height: 7.5rem;
+    width: 35rem;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+    display: flex;
+    align-content: center;
+  }
+
+  .infohbg {
+    display: block;
+    /*margin-left: 0.5rem;*/
+    /*line-height: 1px;*/
+    /*padding-bottom: 10px;*/
+    margin-top: -2.5px;
+    font-size: 17px;
+  }
+  .infohbg .note {
+    margin-top: 17px;
+  }
+  /*lpp*/
+
+  .carte2 {
+    width: 35rem;
+    height: 9rem;
+    margin: 20px 0px 0 10px;
+  }
+
+  .carte2 img {
+    height:8.5rem
+  }
+  .lpp {
+    border-radius: 15px;
+    margin: 0px 45px 45px 45px;
+  }
+  .lppcards {
+    padding-left: 30px;
+  }
+
+  .lppicone {
+    margin-bottom: 20px;
+    margin-left: -8px;
+  }
+
+  /*fin lpp*/
+
+  .afficher {
+    padding-left: 3px;
+  }
+  .titreact {
+    padding-left: 35px;
+  }
+
+  .activites {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6rem;
+    padding-top: 0.2rem;
+    width: auto;
+  }
+  .full img {
+    height: 9rem;
+    width: 35rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+    object-fit: cover;
+  }
+  .img1 {
+    height: 9rem;
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+  .img2 {
+    height: 9rem;
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+  .img3 {
+    height: 9rem;
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+
+  .img4 {
+    height: 9rem;
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+
+  .carteact {
+    border-radius: 1rem;
+    border: 0px solid white;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 16px #d2d2d2;
+    margin-top: 2rem;
+  }
+
+  .footer {
+    background-color: #f2f2f2e3;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: -2rem;
+  }
+
+  .footer li {
+    margin-top: 1rem;
+    font-weight: 600;
+    line-height: 14px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
