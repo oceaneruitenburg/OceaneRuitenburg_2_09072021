@@ -66,6 +66,16 @@ header a {
   border-top: 3px solid #0065fc;
   padding-top: 2.36rem;
 }
+.nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
 /*FIN DU HEADER*/
 
 /*PREMIERE SECTION*/
@@ -469,20 +479,54 @@ h3 {
   .bouton2 i {
     padding: 15px 10px 15px 10px;
   }
- 
-  /*header debut*/
 
+  /*header debut*/
+  .logo {
+    padding-left: 20px;
+  }
+  .titre h1 {
+    padding-left: 20px;
+  }
+  .titre p {
+    padding-left: 20px;
+  }
+  .info {
+    margin-top: -15px;
+    margin-left: -5px;
+  }
   header {
     /*display: flex;
     flex-wrap: wrap;*/
   }
 
   .nav ul {
-    flex-wrap: wrap-reverse;
+    /*flex-wrap: wrap-reverse;
     height: 100px;
-    border: solid greenyellow 2px;
+    border: solid greenyellow 2px;*/
+  }
+  .menu {
+    width: 100%;
+  }
 
-    
+  .logo {
+    position: absolute;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .menu__link {
+    width: 50%;
+  }
+
+  .tt-1 {
+    order: 2;
+  }
+
+  .tt-2 {
+    order: 1;
   }
 
   .link2 {
@@ -497,14 +541,14 @@ h3 {
 
   .link {
     /*padding-left: 1rem;*/
-    border: solid pink 5px;
+    /*border: solid pink 5px;*/
+    border-bottom: 4px solid #f2f2f2;
     /*display: flex;
     flex-wrap: wrap;*/
 
     /*display: grid (1, 1fr);*/
   }
   .link2 {
-    border: solid blue 3px;
     /*text-decoration: none;
     color: #0065fc;
     font-weight: bold;
@@ -530,9 +574,9 @@ h3 {
     padding-bottom: 2rem;
   }
   /*header fin*/
-.recherche {
-  padding-left: 20px;
-}
+  .recherche {
+    padding-left: 20px;
+  }
   /*FILTRES POUR LES MOBILES*/
 
   .filtres {
@@ -568,7 +612,7 @@ h3 {
   /*fin des filtres*/
   .info {
     display: flex;
-    align-items:baseline;
+    align-items: baseline;
     padding-left: 20px;
   }
   .info p {
@@ -726,8 +770,7 @@ h3 {
 
 /*TABLETTES*/
 
-@media only screen and (min-width: 760px) and (max-width: 966px){
-
+@media only screen and (min-width: 760px) and (max-width: 966px) {
   .bouton1 {
     display: none;
   }
@@ -742,21 +785,19 @@ h3 {
   .bouton2 i {
     padding: 15px 10px 15px 10px;
   }
- 
+
   /*header debut*/
-
-  header {
-    /*display: flex;
-    flex-wrap: wrap;*/
+  .logo {
+    padding-left: 20px;
+  }
+  .titre h1 {
+    font-size: 25px;
+    padding-left: 40px;
+  }
+  .titre p {
+    padding-left: 40px;
   }
 
-  .nav ul {
-    flex-wrap: wrap-reverse;
-    height: 100px;
-    border: solid greenyellow 2px;
-
-    
-  }
 
   .link2 {
     /*display: flex;*/
@@ -767,24 +808,15 @@ h3 {
     /*border: solid salmon 3px;
     display: flex;*/
   }
-
-  .link {
-    
-  }
-  .link2 {
-    
-  }
-
-  
   /*header fin*/
-.recherche {
-  padding-left: 20px;
-}
+  .recherche {
+    padding-left: 40px;
+  }
   /*FILTRES POUR LES TABLETTES*/
 
   .filtres {
-    margin-top: -6rem;
-    padding-left: 12px;
+    margin-top: -8rem;
+    padding-left: 20px;
   }
   .filtres ul {
     display: flex;
@@ -804,19 +836,21 @@ h3 {
   }
 
   .filtres h2 {
-    display: flex;
-    position: absolute;
+   /* display: flex;*/
+    /*position: absolute;*/
     padding-left: 16px;
     /*margin-left: 38px;*/
-    padding-bottom: 1rem;
+    margin-bottom: -6rem;
+    margin-right: 15px;
+    font-size: 22px;
     /*ajouter qqch ici*/
   }
 
   /*fin des filtres*/
   .info {
     display: flex;
-    align-items:baseline;
-    padding-left: 20px;
+    align-items: baseline;
+    padding-left: 40px;
   }
   .info p {
     /*display: flex;*/
@@ -850,8 +884,9 @@ h3 {
     row-gap: 2rem;*/
   }
   .hebergements h1 {
-    margin-left: -6px;
+    margin-left: 10px
   }
+  
 
   .carte {
     background-color: white;
@@ -881,7 +916,7 @@ h3 {
     /*line-height: 1px;*/
     /*padding-bottom: 10px;*/
     margin-top: -2.5px;
-    font-size: 17px;
+    font-size: 18px;
   }
   .infohbg .note {
     margin-top: 17px;
@@ -895,7 +930,7 @@ h3 {
   }
 
   .carte2 img {
-    height:8.5rem
+    height: 8.5rem;
   }
   .lpp {
     border-radius: 15px;
@@ -913,10 +948,11 @@ h3 {
   /*fin lpp*/
 
   .afficher {
-    padding-left: 3px;
+    padding-left: 20px;
+    font-size: 18px;
   }
   .titreact {
-    padding-left: 35px;
+    padding-left: 90px;
   }
 
   .activites {
@@ -928,6 +964,7 @@ h3 {
     padding-top: 0.2rem;
     width: auto;
   }
+
   .full img {
     height: 9rem;
     width: 35rem;
@@ -982,26 +1019,4 @@ h3 {
     font-weight: 600;
     line-height: 14px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
