@@ -64,7 +64,7 @@ header a {
 .link:hover {
   color: #0065fc;
   border-top: 3px solid #0065fc;
-  padding-top: 2.36rem;
+  padding-top: 2.5rem;
 }
 .nav {
   display: flex;
