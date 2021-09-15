@@ -12,13 +12,16 @@ h1 {
   width: auto;
   font-size: 24px;
 }
+
 h2 {
   font-size: 17px;
 }
+
 h3 {
   font-size: 13px;
   font-weight: bold;
 }
+
 ul {
   list-style-type: none;
   display: flex;
@@ -43,6 +46,7 @@ header a {
   color: black;
   padding-left: 1rem;
 }
+
 .link2 {
   text-decoration: none;
   color: #0065fc;
