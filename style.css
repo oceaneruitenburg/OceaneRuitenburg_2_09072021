@@ -138,7 +138,6 @@ input {
 .filtres ul a {
   display: flex;
   flex-direction: row;
-  /*flex-wrap: wrap;*/
   text-decoration: none;
   color: black;
 }
@@ -154,14 +153,11 @@ input {
   border-radius: 100%;
   height: 2.2rem;
   width: 2.2rem;
-  /*min-height: 2.3rem;
-  min-width: 2.3rem;*/
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 1px;
   padding: 0.2px;
-  /*margin-bottom: -0.5px;*/
 }
 
 .filtres li h3 {
@@ -171,7 +167,6 @@ input {
 .filtres li {
   border: solid #f2f2f2e3 2px;
   border-radius: 25px;
-  /*display: flex;*/
   margin-right: 26px;
   display: flex;
   flex-wrap: wrap;
@@ -218,32 +213,20 @@ input {
   row-gap: 1.9rem;
   padding: 35px 10px 35px 20px;
   margin-top: -2rem;
-  /*margin-left: -13.5rem;*/
 }
 
 .hebergements {
   background-color: #f2f2f2e3;
   border-radius: 1rem 1rem;
-  /*width: 80%;*/
-  /*width: 43.5rem;*/
-  /*height: 34rem;*/
   display: flex;
   flex-direction: column;
-  /*display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 2rem;
-  row-gap: 2rem;*/
 }
 
 .carte {
   background-color: white;
-  /*padding-top: 0.3rem;
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;*/
   padding: 5px;
   width: 12.3rem;
   height: 11rem;
-  /*margin-left: 2rem;*/
   border-radius: 1rem 1rem;
   box-shadow: 0 0 16px #0000002e;
 }
@@ -285,12 +268,7 @@ input {
 
 .lpp {
   background-color: #f2f2f2e3;
-  /* width: 30%;
-  height: 40%;*/
-  /*width: 22.5rem;
-  height: 34rem;*/
   padding: 15px 15px 35px 15px;
-  /*margin-left: 1.2rem;*/
   border-radius: 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -311,8 +289,6 @@ input {
   justify-content: space-around;
   font-size: 1.5rem;
   font-weight: bold;
-  /*margin-bottom: px;*/
-  /*margin-top: 1.2rem;*/
 }
 .lppicone i {
   margin-top: 1.5rem;
@@ -323,15 +299,9 @@ input {
 
 .carte2 {
   background-color: white;
-  /*padding-top: 0.2rem;*/
-  /*padding-left: 0.5rem;
-  padding-right: 0.5rem;*/
   margin: 25px 25px 0 25px;
-  /*width: 85%;
-  height: 70%;*/
   width: 19rem;
   height: 8rem;
-  /* margin-left: 2rem;*/
   border-radius: 1rem 1rem;
   box-shadow: 0 0 16px #0000002e;
 }
@@ -346,7 +316,6 @@ input {
   height: 7.5rem;
   width: 35%;
   padding-top: 4px;
-  /*padding-right: 10px;*/
   margin: 0 4px 0 4px;
   border-radius: 1rem 0 0 1rem;
   object-fit: cover;
@@ -494,16 +463,7 @@ h3 {
     margin-top: -15px;
     margin-left: -5px;
   }
-  header {
-    /*display: flex;
-    flex-wrap: wrap;*/
-  }
 
-  .nav ul {
-    /*flex-wrap: wrap-reverse;
-    height: 100px;
-    border: solid greenyellow 2px;*/
-  }
   .menu {
     width: 100%;
   }
@@ -521,7 +481,6 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: center;
-    /*margin-left: -22.5px;*/
     border-bottom: 4px solid #f2f2f2e3;
     font-weight: normal;
   }
@@ -536,13 +495,13 @@ h3 {
     border-top: 0px;
     padding: 1.0909rem;
   }
-  .tt-1 {
+  .trio {
     order: 2;
     margin-left: -40.5px;
     margin-right: -2.5px;
   }
 
-  .tt-2 {
+  .sign {
     order: 1;
   }
 
@@ -587,9 +546,7 @@ h3 {
     display: flex;
     position: absolute;
     padding-left: 16px;
-    /*margin-left: 38px;*/
     padding-bottom: 1rem;
-    /*ajouter qqch ici*/
   }
 
   /*fin des filtres*/
@@ -598,33 +555,19 @@ h3 {
     align-items: baseline;
     padding-left: 20px;
   }
-  .info p {
-    /*display: flex;*/
-  }
   .info .icone {
     margin-right: 10px;
-    /*padding: 6px 12px 6px 12px;
-    display: flex;
-    align-items: flex-end*/
   }
   .cards {
     display: flex;
     flex-direction: column;
     margin-top: -2rem;
-    /*margin-left: -13.5rem;*/
   }
 
   .hebergements {
     background-color: white;
-    /*width: 80%;*/
-    /*width: 43.5rem;*/
-    /*height: 34rem;*/
     display: flex;
     flex-direction: column;
-    /*display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-    row-gap: 2rem;*/
   }
   .hebergements h1 {
     margin-left: -6px;
@@ -632,13 +575,9 @@ h3 {
 
   .carte {
     background-color: white;
-    /*padding-top: 0.3rem;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;*/
     padding: 5px;
     width: 20rem;
     height: 11rem;
-    /*margin-left: 2rem;*/
     border-radius: 1rem 1rem;
     box-shadow: 0 0 16px #0000002e;
   }
@@ -654,9 +593,6 @@ h3 {
 
   .infohbg {
     display: block;
-    /*margin-left: 0.5rem;*/
-    /*line-height: 1px;*/
-    /*padding-bottom: 10px;*/
     margin-top: -2.5px;
   }
   .infohbg .note {
@@ -786,15 +722,6 @@ h3 {
     padding-top: 2.5rem;
   }
 
-  .link2 {
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-  }
-  header img,
-  .link2 {
-    /*border: solid salmon 3px;
-    display: flex;*/
-  }
   /*header fin*/
   .recherche {
     padding-left: 40px;
@@ -823,14 +750,10 @@ h3 {
   }
 
   .filtres h2 {
-    /* display: flex;*/
-    /*position: absolute;*/
     padding-left: 16px;
-    /*margin-left: 38px;*/
     margin-bottom: -6rem;
     margin-right: 15px;
     font-size: 22px;
-    /*ajouter qqch ici*/
   }
 
   /*fin des filtres*/
@@ -839,36 +762,23 @@ h3 {
     align-items: baseline;
     padding-left: 40px;
   }
-  .info p {
-    /*display: flex;*/
-  }
+
   .info .icone {
     margin-right: 10px;
-    /*padding: 6px 12px 6px 12px;
-    display: flex;
-    align-items: flex-end*/
   }
   .cards {
     display: flex;
     flex-direction: column;
     margin-top: -2rem;
     padding-left: 50px;
-    /*margin-left: -13.5rem;*/
   }
 
   .hebergements {
     background-color: #f2f2f2e3;
     border-radius: 15px;
     margin: 0px 45px 45px 45px;
-    /*width: 80%;*/
-    /*width: 43.5rem;*/
-    /*height: 34rem;*/
     display: flex;
     flex-direction: column;
-    /*display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-    row-gap: 2rem;*/
   }
   .hebergements h1 {
     margin-left: 10px;
@@ -876,13 +786,9 @@ h3 {
 
   .carte {
     background-color: white;
-    /*padding-top: 0.3rem;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;*/
     padding: 5px;
     width: 35rem;
     height: 13rem;
-    /*margin-left: 2rem;*/
     border-radius: 1rem 1rem;
     box-shadow: 0 0 16px #0000002e;
   }
@@ -898,9 +804,6 @@ h3 {
 
   .infohbg {
     display: block;
-    /*margin-left: 0.5rem;*/
-    /*line-height: 1px;*/
-    /*padding-bottom: 10px;*/
     margin-top: -2.5px;
     font-size: 18px;
   }
