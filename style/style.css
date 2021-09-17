@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 17px;
+  font-size: 22px;
 }
 
 h3 {
@@ -199,8 +199,8 @@ input {
   padding-top: 1rem;
   justify-content: space-between;
 }
-.section2 h1 {
-  padding: 15px 0 0 35px;
+.section2 h2 {
+  padding: 15px 0 0 30px;
 }
 .afficher {
   font-size: 14px;
@@ -292,7 +292,6 @@ input {
   flex-direction: row;
   justify-content: space-around;
   font-size: 1.5rem;
-  font-weight: bold;
 }
 .lppicone i {
   margin-top: 1.5rem;
@@ -350,7 +349,7 @@ h3 {
 /*SECTION ACTIVITÉS*/
 
 .titreact {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   padding-top: 1rem;
 }
@@ -434,6 +433,9 @@ h3 {
   flex-direction: row;
   align-content: center;
   margin-top: -2rem;
+}
+.footer h2 {
+  font-size: 17px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -752,6 +754,9 @@ h3 {
     padding-top: 1rem;
     justify-content: space-between;
   }
+  .section2 h2 {
+    padding: 15px 0 0 55px;
+  }
 
   .filtres h2 {
     padding-left: 16px;
@@ -892,7 +897,6 @@ h3 {
 
   .carteact {
     border-radius: 1rem;
-    border: 0px solid white;
     overflow: hidden;
     background-color: white;
     box-shadow: 0 0 16px #d2d2d2;
