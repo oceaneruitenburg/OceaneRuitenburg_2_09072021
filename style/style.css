@@ -363,7 +363,6 @@ h3 {
 }
 .carteact {
   border-radius: 1rem;
-  border: 0px solid white;
   overflow: hidden;
   background-color: white;
   box-shadow: 0 0 16px #d2d2d2;
@@ -671,7 +670,6 @@ h3 {
 
   .carteact {
     border-radius: 1rem;
-    border: 0px solid white;
     overflow: hidden;
     background-color: white;
     box-shadow: 0 0 16px #d2d2d2;

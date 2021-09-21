@@ -1,9 +1,0 @@
-- bouton2 problème avec le display none
-- logo est dans le header, mais il n'inclut pas "s'inscrire" ce qui rend le grid impossible à realiser
-- gerer padding du body
-- taille des cartes act sont de la meme taille que la div activités
-- centrer les éléments
-- display grid pour les quatre éléments du header
-- trouver un moyen d'afficher l'icone de recherche
-- mettre "filtres" en premier avant les filtres
-- barre de recherche à centrer
