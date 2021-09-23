@@ -1,10 +1,15 @@
 body {
   font-family: "Raleway", sans-serif;
   background-color: white;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   display: flex;
   flex-direction: column;
   padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.corps {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -18,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -33,7 +38,7 @@ header {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
-  justify-items: center;
+  max-width: 1200px;
 }
 
 header a {
@@ -273,6 +278,7 @@ input {
 .lpp {
   background-color: #f2f2f2e3;
   padding: 15px 15px 35px 15px;
+  margin-left: 25px;
   border-radius: 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -422,6 +428,7 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-right: 6.5rem;
+  align-content: center;
 }
 .footer li {
   margin-top: 1rem;
@@ -430,8 +437,9 @@ h3 {
   background-color: #f2f2f2e3;
   display: flex;
   flex-direction: row;
-  align-content: center;
+  justify-content: center;
   margin-top: -2rem;
+  margin-left: -14rem;
 }
 .footer h2 {
   font-size: 17px;
@@ -611,6 +619,7 @@ h3 {
   }
   .lpp {
     border-radius: 0px;
+    margin-left: 0px;
   }
 
   .lppicone {
@@ -682,6 +691,7 @@ h3 {
     flex-direction: column;
     align-content: center;
     margin-top: -2rem;
+    margin-left: 0rem;
   }
 
   .footer li {
@@ -790,6 +800,9 @@ h3 {
   .hebergements h1 {
     margin-left: 10px;
   }
+  h3 {
+    font-size: 15px;
+  }
 
   .carte {
     background-color: white;
@@ -813,6 +826,9 @@ h3 {
     display: block;
     margin-top: -2.5px;
     font-size: 18px;
+  }
+  .infohbg p {
+    font-size: 12px;
   }
   .infohbg .note {
     margin-top: 17px;
@@ -907,6 +923,7 @@ h3 {
     flex-direction: column;
     align-content: center;
     margin-top: -2rem;
+    margin-left: 0rem;
   }
 
   .footer li {
