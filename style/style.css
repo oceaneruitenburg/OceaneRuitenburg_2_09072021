@@ -575,6 +575,7 @@ h3 {
     display: flex;
     flex-direction: column;
     margin-top: -2rem;
+    align-items: center;
   }
 
   .hebergements {
@@ -621,7 +622,13 @@ h3 {
     border-radius: 0px;
     margin-left: 0px;
   }
-
+  .lppcards {
+    margin-top: -2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
   .lppicone {
     margin-bottom: 20px;
     margin-left: -8px;
@@ -787,7 +794,8 @@ h3 {
     display: flex;
     flex-direction: column;
     margin-top: -2rem;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
+    align-items: center;
   }
 
   .hebergements {
@@ -849,7 +857,11 @@ h3 {
     margin: 0px 45px 45px 45px;
   }
   .lppcards {
-    padding-left: 30px;
+    /*padding-left: 30px;*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .lppicone {
@@ -924,6 +936,7 @@ h3 {
     align-content: center;
     margin-top: -2rem;
     margin-left: 0rem;
+
   }
 
   .footer li {
